@@ -22,7 +22,7 @@ def show():
 
 @app.route('/about')
 def hello():
-  return "Hello im Redi"
+  return render_template('about.html')
 
 if __name__=='__main__':
   app.run(debug=True)
