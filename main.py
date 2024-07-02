@@ -20,5 +20,9 @@ def show():
   quote=generate_quote()
   return render_template('index.html',quote=quote) #one is the variable in python file the other on the .html file
 
+@app.route('/about')
+def hello():
+  return "Hello im Redi"
+
 if __name__=='__main__':
   app.run(debug=True)
