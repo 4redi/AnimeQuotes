@@ -21,7 +21,7 @@ def show():
   return render_template('index.html',quote=quote) #one is the variable in python file the other on the .html file
 
 @app.route('/about')
-def hello():
+def about():
   return render_template('about.html')
 
 if __name__=='__main__':
