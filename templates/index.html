@@ -7,8 +7,13 @@
     <style>
         body{
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            text-align: center;
-            margin: 50px;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin:0;
+            height:100vh;
+            
         }
         .quote{
             font-size:24px;
@@ -19,8 +24,16 @@
             color: gray;
         }
         .button{
+            display: flex;
+            padding: 10px 20px;
+            margin: 10px;
+            gap: 10px;
             width: 250px;
-            background-color: azure;
+            background-color: rgb(67, 167, 167);
+        }
+        .button:hover{
+            background-color:azure;
+            color: rgb(105, 156, 123);
         }
     </style>
 </head>
@@ -32,5 +45,10 @@
         - {{quote['character']}} from {{quote['anime']}}
     </div>
     <button onclick="window.location.reload();" class="button">Get another Quote</button>
+    <button onclick="LoadAbout()" class="button">About</button>
+    <script src="static\script.js"></script>
+
 </body>
+
+
 </html>
