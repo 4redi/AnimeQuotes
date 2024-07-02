@@ -1,7 +1,7 @@
 import random as rand
 import pandas as pd
 
-dataset = pd.read_csv(r'dataset/AnimeQuotes.csv')
+dataset = pd.read_csv('dataset/AnimeQuotes.csv', encoding='utf-8')
 
 
 def generate_quote():
