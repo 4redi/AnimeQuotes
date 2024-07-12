@@ -1,4 +1,4 @@
-![Anime Quote](Images/gif.gif)
+<img src="Images/gif.gif" style="width:100%">
 
 <br><br>
 ![Status: Finished](https://img.shields.io/badge/Status-Working-blue)
