@@ -1,4 +1,5 @@
-![AnimeQuote](Images\gif.gif)
+![Anime Quote](Images/gif.gif)
+
 <br><br>
 ![Status: Finished](https://img.shields.io/badge/Status-Working-blue)
 <img src="https://img.shields.io/badge/License-MIT-green">
