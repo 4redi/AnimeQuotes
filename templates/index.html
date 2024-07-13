@@ -4,40 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anime Quotes</title>
-    <style>
-        body{
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            display:flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            margin:0;
-            height:100vh;
-            
-        }
-        .quote{
-            font-size:24px;
-            margin-bottom: 70px;
-        }
-        .details{
-            font-size: 18px;
-            color: gray;
-        }
-        .button{
-            display: flex;
-            padding: 10px 20px;
-            margin: 10px;
-            gap: 10px;
-            width: 250px;
-            background-color: rgb(67, 167, 167);
-        }
-        .button:hover{
-            background-color:azure;
-            color: rgb(105, 156, 123);
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/index.css') }}">
 </head>
 <body>
+
     <div class="quote">
         "{{quote['quote']}}"
     </div>
