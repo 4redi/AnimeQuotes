@@ -2,7 +2,7 @@ from flask import Flask,render_template
 import random as rand
 import pandas as pd
 
-app=Flask(__name__)
+app=Flask(__name__,static_url_path='/static')
 
 dataset = pd.read_csv('dataset/AnimeQuotes.csv', encoding='utf-8')
 
