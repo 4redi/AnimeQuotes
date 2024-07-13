@@ -1,2 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+DK+Uloopet:wght@100..400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Playwrite+DK+Uloopet:wght@100..400&display=swap');
+
+*{
+    overflow-x: hidden;
+}
+.img1{
+    height:31px;
+    width:88px;
+}
+
+.badges{
+    border-image: linear-gradient(to right, #3acfd5 0%, #3a4ed5 100%) 1;
+    border-width: 4px;
+    border-style: solid;
+    padding: 5px;
+}
+
+::-webkit-scrollbar{
+    background-image: linear-gradient(to bottom, #28292a, #132b43, #002a5c, #002471, #320f7d);}
+    ::-webkit-scrollbar-thumb {
+        background-color: #b6babe;
+        border: 3px solid transparent;
+        background-clip: content-box;
+    }
+
+    .box1{
+        width:200px;
+        height:100px;
+        overflow-x:hidden;
+        padding:5px;
+        border:10px solid #002a5c;
+        display: inline-block;
+position: fixed;
+right: 50px;
+    }
+
+
+
+   
