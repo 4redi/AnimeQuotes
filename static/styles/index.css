@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DK+Uloopet:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Playwrite+DK+Uloopet:wght@100..400&display=swap');
+     
+     body{
+            
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin:0;
+            height:100vh;
+            background-image: radial-gradient(circle, #8b9fbe, #7db2cd, #75c5cf, #82d5c6, #a4e2b6);
+            
+        }
+        .quote{
+            font-size:1.5em;
+            margin-bottom: 3em;
+            font-family: "DM Serif Display", serif;
+            text-align:center;
+            white-space: pre-line;
+        }
+        .details{
+            font-size: 2.5rem;
+            color: rgb(31, 31, 31);
+            font-family: "Playwrite DK Uloopet", cursive;
+            margin-bottom: 2rem;
+            text-align:center;
+            white-space: pre-line;
+        }
+        .button{
+            display: flex;
+            padding: 10px 20px;
+            margin: 10px;
+            gap: 10px;
+            width: 250px;
+            background-color: rgb(67, 167, 167);
+            font-family: "DM Serif Display", serif;
+        }
+        .button:hover{
+            background-color:azure;
+            color: rgb(105, 156, 123);
+        }
+        
+
+   
+        
+        
