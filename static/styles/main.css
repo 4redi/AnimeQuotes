@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 
 *{
     box-sizing: border-box;
@@ -61,6 +62,7 @@ body{
     font-size:20px;
     text-align:right;
     border-bottom: 2px dashed #4c7273;
+    font-family: 'Architects Daughter';
 }
 
 .link{
@@ -74,17 +76,15 @@ body{
     width: 10px;
   }
   
-  /* Track */
   ::-webkit-scrollbar-track {
     background: transparent; 
   }
    
-  /* Handle */
   ::-webkit-scrollbar-thumb {
     background: rgb(123, 137, 203); 
   }
   
-  /* Handle on hover */
+
   ::-webkit-scrollbar-thumb:hover {
     background: #606690; 
   }
@@ -114,13 +114,24 @@ body{
     text-align: center;
 }
 
-
+.p{
+  text-align: left;
+  font-family: 'Architects Daughter';
+}
+.title{
+  width:100px;
+  font-size: larger;
+  background-color: #b3d1d2;
+}
 
 
 
 @media(max-width:730px){
     .box img{
     display: none;
+    }
+    .badges{
+      display: none;
     }
     }
     
@@ -129,3 +140,4 @@ body{
     flex-direction: column;
     }
     }
+

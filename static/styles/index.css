@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+DK+Uloopet:wght@100..400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Playwrite+DK+Uloopet:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
      
      body{
             
@@ -42,7 +43,14 @@
             color: rgb(105, 156, 123);
         }
         
+        footer{
+font-family: 'Questrial';
+        }
 
    
         
+::selection{
+    background-color: rgb(12, 71, 123);
+    color: white;
+}
         
