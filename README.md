@@ -1,8 +1,8 @@
 <img src="Images/gif.gif" style="width:100%">
 
 <br><br>
-![Status: Finished](https://img.shields.io/badge/Status-Working-blue)
-<img src="https://img.shields.io/badge/License-MIT-green">
+![Status: Finished](https://img.shields.io/badge/Status-Finished-red)
+<img src="https://img.shields.io/badge/License-MIT-blue">
 
 # Description 🧁
 
@@ -27,5 +27,5 @@
 # THINGS TO DO ✒️
 
 - [X] Add new Routes
-- [ ] Style the Website
+- [X] Style the Website
  
