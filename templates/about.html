@@ -8,7 +8,7 @@
     <title>About</title>
 </head>
 <body>
-    <p class="go-back"><a href="/">Anime Quote Generator</a></p>
+    <a href="/" class="link">Anime Quote Generator</a>
     <!-- ALL -->
     <div class="container">
         <!--IMAGE-->
@@ -18,41 +18,64 @@
 <!--BOXES-->
 <div class="main">
     <!--BOX1/3-->
-    <div class="box1">
-        <h2 class="header">
-            About
-        </h2>
+    <div class="box">
 
-        <p><b>Name: </b>Redi</p>
-        <p><b>Age: </b>Adult</p>
-        <p><b>Hobbies: </b>Reading,Coding,Listening to music</p>
-        <p><b>Likes: </b>Vintage stuff, rain, summer (mostly the beach), going to places, horror movies and the gym</p>
-        <p><b>Dislikes: </b>Bitter/negative people</p>
+            <img src="{{ url_for('static', filename='images/luffy.png') }}" class="img">
+         <div class="content">
+            <h2 class="header">
+                About
+            </h2>
+    
+            <p><b>Name: </b>Redi</p>
+            <p><b>Age: </b>Adult</p>
+            <p><b>Hobbies: </b>Reading,Coding,Listening to music</p>
+            <p><b>Likes: </b>Vintage stuff, rain, summer (mostly the beach), going to places, horror movies and the gym</p>
+            <p><b>Dislikes: </b>Bitter/negative people</p>
+
+        </div>
+       
     </div>
 <!--BOX2/3-->
-    <div class="box2">
-<h2 class="preferences">Preferences</h2>
-<p><b>Technology: </b>AI and Data Science,Analysis.</p>
-<p><b>Music: </b>Foo fighters, She wants revenge, BLINK-182, stellar, sik-k, taylor swift and music from 2014-2018</p>
-<p><b>Games: </b>Only CODM, used to play Cyber Hunter</p>
-<p><b>Shows/Movies: </b> X,Black swan, Fight club, Scarface and some 80-90s slash horror</p>
+    <div class="box">
+            <img src="{{ url_for('static', filename='images/luffy.png') }}" class="img">
+        <div class="content">
+            <h2 class="header">Preferences</h2>
+            <p><b>Technology: </b>AI and Data Science,Analysis.</p>
+            <p><b>Music: </b>Foo fighters, She wants revenge, BLINK-182, stellar, sik-k, taylor swift and music from 2014-2018</p>
+            <p><b>Games: </b>Only CODM, used to play Cyber Hunter</p>
+            <p><b>Shows/Movies: </b> X,Black swan, Fight club, Scarface and some 80-90s slash horror</p>
+        </div>
+
+
     </div>
 <!--BOX3/3-->
-    <div class="box3">
-        <h2 class="currently">What I'm doing..?</h2>
-        <p><b>Learning: </b>Web development, JAVASCRIPT and APIs</p>
-        <p><b>Where I'm at: </b>It's either my room or the gym :p</p>
+    <div class="box">
+            <img src="{{ url_for('static', filename='images/luffy.png') }}" class="img">
+
+        
+        <div class="content">
+            <h2 class="header">What I'm doing..?</h2>
+            <p><b>Learning: </b>Web development, JAVASCRIPT and APIs</p>
+            <p><b>Where I'm at: </b>It's either my room or the gym :p</p>
+        </div>
+        
     </div>
     
 </div>
 
     </div>
 
-<div class="badges">
-    <marquee direction="left">
-        <img src="{{ url_for('static', filename='Images/badge2.gif') }}">
-        <img src="{{ url_for('static', filename='Images/badge1.png') }}" class="img1">
-    </marquee>
-</div>
+
+    <div class="badges">
+        <div class="title">
+            <p class="p">My Badges</p>
+        </div>
+        
+        <marquee direction="left">
+            <img src="{{ url_for('static', filename='Images/badge2.gif') }}">
+            <img src="{{ url_for('static', filename='Images/badge1.png') }}" class="img1">
+        </marquee>
+    </div>
+
 </body>
 </html>
